@@ -1,0 +1,12 @@
+a. Tutorial kali ini mengajarkan cara memisahkan model dan mengajarkan cara membuat dan menggunakan service yang menjembatani model dan controller.
+
+b. 1. Data berhasil ditambahkan
+   2. Error, karena gpa nya tidak ada.
+   3. Data Student tersebut muncul berupa NPM, Name, dan GPA.
+   4. Error/data student tidak muncul
+   5. Data student muncul
+   6. Semua data student muncul karena sudah disimpan
+   
+c. Method selectStudent akan melakukan looping sebanyak list studentList. Dilakukan pengecekan untuk setiap object pada list apakah object tersebut memiliki npm yang sesuai. Apabila npm pada object tersebut sudah sesuai, maka return object tersebut. Jika tidak sesuai, maka return null.
+
+d.
